@@ -1,25 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
 
+let name = "sandeep";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Sandeep Thapa Magar
-
-        </a>
-      </header>
-    </div>
+    // jsx fragemnt- meaning returning more than one elements 
+    <>
+      <nav>
+        <li>home</li>
+        <li>about</li>
+        <li>contact</li>
+      </nav>
+      <div className="container">
+        <h1>hello {name}</h1>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis nam, inventore iusto in veniam natus pariatur porro molestias quasi perferendis.
+      </div>
+    </>    
   );
 }
 
