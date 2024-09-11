@@ -4,3 +4,5 @@
 * creating react app template 
 * basic understand of react
 * js revised 
+
+##day 2 
