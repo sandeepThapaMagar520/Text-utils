@@ -1,12 +1,16 @@
 import './App.css';
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar'; // Renamed Navbar
+import ContactForm from './components/ContactForm'; // Renamed TestForm
 
 function App() {
   return (
-    // jsx fragemnt- meaning returning more than one elements 
     <>
-      <Navbar title="TextUtils"/>
-    </>    
+      <Navbar title="TextUtils" />
+      <div className="container my-3">
+        
+        <ContactForm heading="Enter the text to analyze below" />
+      </div>
+    </>
   );
 }
 
