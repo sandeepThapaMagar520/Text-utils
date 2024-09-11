@@ -1,19 +1,11 @@
 import './App.css';
+import Navbar from './components/Navbar';
 
-let name = "sandeep";
 function App() {
   return (
     // jsx fragemnt- meaning returning more than one elements 
     <>
-      <nav>
-        <li>home</li>
-        <li>about</li>
-        <li>contact</li>
-      </nav>
-      <div className="container">
-        <h1>hello {name}</h1>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis nam, inventore iusto in veniam natus pariatur porro molestias quasi perferendis.
-      </div>
+      <Navbar title="TextUtils"/>
     </>    
   );
 }
