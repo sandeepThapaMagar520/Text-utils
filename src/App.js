@@ -1,6 +1,7 @@
 import './App.css';
-import Navbar from './components/Navbar'; // Renamed Navbar
-import ContactForm from './components/ContactForm'; // Renamed TestForm
+import Navbar from './components/Navbar'; 
+import ContactForm from './components/ContactForm'; 
+// import About from "./components/About";
 
 function App() {
   return (
@@ -9,6 +10,8 @@ function App() {
       <div className="container my-3">
         
         <ContactForm heading="Enter the text to analyze below" />
+        {/* <About/> */}
+    
       </div>
     </>
   );
