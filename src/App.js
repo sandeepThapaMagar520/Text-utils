@@ -7,10 +7,8 @@ import About from "./components/About";
 
 import{
   BrowserRouter as Router,
-  Switch ,
   Route,
-  Routes,
-  Link
+  Routes
 } from "react-router-dom";
                 
 function App() {
